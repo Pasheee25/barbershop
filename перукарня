@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbershop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+        }
+        .header {
+            background: #333;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .banner {
+            padding: 50px;
+            background: url('https://source.unsplash.com/1600x900/?barber') center/cover;
+        }
+        .services, .contact {
+            padding: 40px;
+        }
+        .button {
+            background: #ffcc00;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">BARBERSHOP</div>
+    <div class="banner">
+        <h1>Стильні стрижки для справжніх чоловіків</h1>
+        <a href="#contact" class="button">Записатися</a>
+    </div>
+    <div class="services">
+        <h2>Наші послуги</h2>
+        <p>Чоловіча стрижка - 500 грн</p>
+        <p>Гоління - 300 грн</p>
+        <p>Стрижка бороди - 250 грн</p>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Контакти</h2>
+        <p>📍 Київ, вул. Шевченка, 10</p>
+        <p>📞 +38 098 123 45 67</p>
+    </div>
+</body>
+</html>
